@@ -44,7 +44,6 @@ if word_list:
     I1.text((316, 260), QUOTES, spacing=SPACING, font=myFont, fill=COLOR)
     I1.text((442, 1000), "#tamilsms", fill = COLOR, font=myFont)
 
-    IMG.show()
     IMG.save(filename + ".png")
     print("image Generated : " + filename + ".png")
 else:

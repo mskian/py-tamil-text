@@ -44,7 +44,6 @@ if word_list:
     I1.text((300, 380), QUOTES, spacing=SPACING, font=myFont, fill=COLOR)
     I1.text((442, 1000), "#sanquotes", fill = COLOR, font=myFont)
 
-    IMG.show()
     IMG.save(filename + ".png")
     print("image Generated : " + filename + ".png")
 else:
