@@ -5,7 +5,7 @@ from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
 
-print("Enter/Paste your Quotes. Ctrl-D ( windows ) to save it.")
+print("Enter/Paste your Kavithai. Ctrl-D ( windows ) to save it.")
 
 contents = []
 LINE = ""
@@ -48,4 +48,4 @@ if word_list:
     IMG.save(filename + ".png")
     print("image Generated : " + filename + ".png")
 else:
-    print("Empty Quotes or Kavithai Data")
+    print("Empty Kavithai Data")

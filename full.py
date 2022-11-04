@@ -48,4 +48,4 @@ if word_list:
     IMG.save(filename + ".png")
     print("image Generated : " + filename + ".png")
 else:
-    print("Empty Quotes or Kavithai Data")
+    print("Empty Quotes Data")
